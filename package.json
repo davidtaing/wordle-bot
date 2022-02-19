@@ -1,0 +1,8 @@
+{
+  "name": "wordle-bot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/davidtaing/wordle-bot.git",
+  "author": "David Taing <adavidtaing@gmail.com>",
+  "license": "MIT"
+}
