@@ -1,3 +1,4 @@
+import { writeToJson } from "./utils.js";
 import { wordles, allowedWords } from "./words.js";
 
 function getLetterFreq() {
@@ -36,3 +37,5 @@ function initLetterMap() {
 }
 
 const letterFreqs = getLetterFreq();
+
+writeToJson(Object.fromEntries(letterFreqs), "./data/letterFreqs.json");
