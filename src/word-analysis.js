@@ -1,5 +1,5 @@
 import { writeToJson } from "./utils.js";
-import { wordles, allowedWords } from "./words.js";
+import { wordles, allowedWords } from "../wordLists.js";
 
 function getLetterFreq() {
   const letterMap = initLetterMap();
