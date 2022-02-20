@@ -1,6 +1,6 @@
 import Word from "./word";
 
-describe("Guess Class", () => {
+describe("Word Class", () => {
   describe("Wordle is arise. (Non-Repeating Letters)", () => {
     const word = new Word("arise");
 
